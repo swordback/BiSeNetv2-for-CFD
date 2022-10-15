@@ -1,0 +1,1 @@
+nvidia-docker run -it --gpus all --ipc=host --volume /home/minerai0/Documents/cfd:/cfd --name cfd_env horovod/horovod:latest
